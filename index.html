@@ -3,27 +3,21 @@
 <html lang="es">
 <head>
 <meta charset="UTF-8">
-<title>Histórico de Reportes</title>
+<title>Reporte más reciente</title>
 <style>
-body { font-family: Arial; background:#f9f9f9; color:#333; margin:40px; }
-h1 { text-align:center; color:#2c3e50; }
-table { border-collapse: collapse; width: 90%; margin: 20px auto; background:#fff; box-shadow:0 2px 8px rgba(0,0,0,0.1);}
-th, td { border: 1px solid #ddd; padding: 10px; text-align:center; }
-th { background:#34495e; color:#fff; }
-tr:nth-child(even) { background:#f2f2f2; }
-tr.latest { background:#dff0d8; font-weight:bold; }
-a { text-decoration:none; color:#2980b9; font-weight:bold; }
-a:hover { color:#e74c3c; }
+body { font-family: Arial; background:#f9f9f9; color:#333; margin:40px; text-align:center; }
+h1 { color:#2c3e50; }
+a.button { display:inline-block; margin:20px; padding:12px 20px; background:#2980b9; color:#fff; text-decoration:none; border-radius:6px; }
+a.button:hover { background:#e74c3c; }
 </style>
 </head>
 <body>
-<h1>📊 Histórico de Reportes</h1>
-<table>
-<tr><th>Fecha del reporte</th><th>Ver datos</th><th>Descargar</th></tr>
-
-<tr class="latest">
-<td>2025-09-17 14-14</td>
-<td><a href="reporte_2025-09-17_14-14.html">Ver</a></td>
-<td><a href="reporte_2025-09-17_14-14.xlsx" download>⬇️ Descargar</a></td>
-</tr>
-</table></body></html>
+<h1>📊 Reporte más reciente</h1>
+<p><strong>Fecha:</strong> 2025-09-17 17-52</p>
+<p>
+    <a class="button" href="reporte_2025-09-17_17-52.html">🔍 Ver reporte</a>
+    <a class="button" href="reporte_2025-09-17_17-52.xlsx" download>⬇️ Descargar Excel</a>
+</p>
+<p><a class="button" href="historial.html">📂 Ver historial</a></p>
+</body>
+</html>
